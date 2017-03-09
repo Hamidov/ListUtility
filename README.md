@@ -1,6 +1,6 @@
 # java version
 java version = 1.8
 # compile
-commande compile : gradlew compileJava
+gradlew compileJava
 # test
-commande test : gradlew test
+gradlew test
