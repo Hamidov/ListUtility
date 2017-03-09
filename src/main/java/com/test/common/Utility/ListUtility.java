@@ -34,7 +34,7 @@ public class ListUtility {
         return result;
     }
 
-    public static <T> List<List<T>> partitionsJava8(List<T> list, int nbPartition) {
+    public static <T> List<List<T>> partitionsJava8(List<T> list, final int nbPartition) {
         if (list == null) {
             throw new IllegalArgumentException("list is null");
         }
